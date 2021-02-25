@@ -17,6 +17,6 @@ export class HomeComponent implements OnInit {
   ngOnInit() {}
 
   scrollToPorto() {
-    //this.portoComp.portoCont.scrollIntoView();
+    this.portoComp.portoCont.scrollIntoView();
   }
 }
