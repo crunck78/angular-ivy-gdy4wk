@@ -12,11 +12,13 @@ export class HomeComponent implements OnInit {
 
   constructor() {}
 
-  ngAfterViewInit() {}
+  ngAfterViewInit() {
+    //this.portoComp.portoCont.scrollIntoView();
+  }
 
   ngOnInit() {}
 
-  scrollToPorto() {
+  showPorto() {
     this.portoComp.portoCont.scrollIntoView();
   }
 }
