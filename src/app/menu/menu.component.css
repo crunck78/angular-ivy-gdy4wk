@@ -1,0 +1,7 @@
+.nav {
+  position: fixed;
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
